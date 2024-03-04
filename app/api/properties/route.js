@@ -67,8 +67,6 @@ export const POST = async (request) => {
       owner: userId,
     };
 
-    console.log('🍒  propertyData:', propertyData);
-
     // Upload image(s) to Cloudinary
     const imageUploadPromises = [];
 
