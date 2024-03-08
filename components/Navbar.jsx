@@ -16,7 +16,6 @@ const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState(false);
   const [providers, setProviders] = useState(null);
-  // console.log('🍒  providers:', providers);
 
   const pathname = usePathname();
 
