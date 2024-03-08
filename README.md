@@ -2,6 +2,8 @@
 
 _Rental Easy_ is a comprehensive web application designed to simplify the process of finding your next rental property. With a user-friendly interface and a range of features, Rental Easy aims to streamline the rental property search experience.
 
+<img src="public/rental-easy.jpg" width="100%">
+
 ## Features
 
 - **User Authentication:** Users can authenticate using their Google accounts through Next Auth, ensuring a secure and convenient login process.
