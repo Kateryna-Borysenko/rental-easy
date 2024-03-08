@@ -108,7 +108,7 @@ const Navbar = () => {
           </div>
 
           {/* <!-- Right Side Menu (Logged Out) --> */}
-          {!session && (
+          {!session && providers && (
             <div className='hidden md:block md:ml-6'>
               <div className='flex items-center'>
                 {providers &&
