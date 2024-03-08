@@ -26,6 +26,10 @@ const Navbar = () => {
     };
 
     setAuthProviders();
+
+    window.addEventListener('resize', () => {
+      setIsMobileMenuOpen(false);
+    });
   }, []);
 
   return (

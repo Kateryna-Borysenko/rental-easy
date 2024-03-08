@@ -42,7 +42,7 @@ const Properties = () => {
   return loading ? (
     <Spinner />
   ) : (
-    <section >
+    <section className='py-8'>
       <div className='container-xl lg:container m-auto'>
         {properties.length === 0 ? (
           <p>No properties found</p>
